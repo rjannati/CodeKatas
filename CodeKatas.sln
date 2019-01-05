@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas", "CodeKatas\CodeKatas.csproj", "{4EBDB54B-01A3-448C-A01A-98CF78258881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas.Tests", "CodeKatas.Tests\CodeKatas.Tests.csproj", "{0AE30131-4B35-4FAE-92EE-E068DBEBED7B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EBDB54B-01A3-448C-A01A-98CF78258881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBDB54B-01A3-448C-A01A-98CF78258881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBDB54B-01A3-448C-A01A-98CF78258881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBDB54B-01A3-448C-A01A-98CF78258881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE30131-4B35-4FAE-92EE-E068DBEBED7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE30131-4B35-4FAE-92EE-E068DBEBED7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE30131-4B35-4FAE-92EE-E068DBEBED7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE30131-4B35-4FAE-92EE-E068DBEBED7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
